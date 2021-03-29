@@ -11,19 +11,19 @@ body{
   font-family: Arvo; 
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(120deg,#eaee44,#33d0ff);
+  background-color: #2b2a2b;
 }
 h1{
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding: 2%;
 }
  /*line*/
  .timeline {
   white-space: nowrap;
   overflow-x: scroll;
- 
+  
 }
  
 .timeline ol {
