@@ -64,7 +64,7 @@ h1{
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #F45B69;
+  background-color:#ed666f; ;
 }
 .item-text{
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
