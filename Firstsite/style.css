@@ -12,23 +12,25 @@ body{
   display: flex;
   flex-direction: column;
   background-color: #2b2a2b;
+  white-space: nowrap;
+  overflow-x: scroll;
 }
 h1{
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 2%;
+
 }
  /*line*/
  .timeline {
-  white-space: nowrap;
-  overflow-x: scroll;
   
 }
  
 .timeline ol {
   font-size: 0;
   width: 100vw;
+  margin: 9%  0;
   padding: 350px 0;
   
 }
@@ -44,7 +46,7 @@ h1{
 }
  
 .timeline ol li:last-child {
-  width: 35%;
+  width: 25%;
 }
  
 .timeline ol li:not(:first-child) {
